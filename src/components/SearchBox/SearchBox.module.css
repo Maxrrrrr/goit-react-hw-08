@@ -1,0 +1,13 @@
+.text {
+  color: #ab47bc;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.box {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  padding: 20px;
+}

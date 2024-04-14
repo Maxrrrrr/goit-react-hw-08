@@ -1,0 +1,14 @@
+.box {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  padding: 20px;
+}
+
+.text {
+  align-self: center;
+  color: #7b1fa2;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
