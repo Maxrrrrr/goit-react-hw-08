@@ -1,8 +1,8 @@
 import { useSelector } from "react-redux";
-import LoginForm from "../../components/LoginForm/LoginForm";
-import { selectError, selectIsLoading } from "../../redux/auth/selectors";
-import Loading from "../../components/Loading/Loading";
-import ErrorMessage from "../../components/ErrorMessage/ErrorMessage";
+import LoginForm from "../components/LoginForm/LoginForm";
+import { selectError, selectIsLoading } from "../redux/auth/selectors";
+import Loading from "../components/Loading/Loading";
+import ErrorMessage from "../components/ErrorMessage/ErrorMessage";
 import Container from "@mui/material/Container";
 
 export default function LoginPage() {
